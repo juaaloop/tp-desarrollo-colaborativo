@@ -52,17 +52,19 @@ background:#7f45eb;
 scale:1.10;
 }
 
-.propuesta{
-width:400px;
-margin:auto;
-margin-top:40px;
-display:flex;
-flex-direction:column;
+.propuesta {
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
-input{
-padding:10px;
-margin-bottom:10px;
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 5%;
 }
 
 footer{
