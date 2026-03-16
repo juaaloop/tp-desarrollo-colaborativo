@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Ideas Último Año</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ideas Último Año</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="navbar">
+<header class="navbar">
+
+<h2>Ideas Último Año</h2>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Propuestas</a>
+<a href="#">Contacto</a>
+</nav>
+
+</header>
 
 <main>
 <section class="hero" id="hero">
 
-    </header>
-    <section class="hero">
-        <h1>Propuestas para el último año</h1>
-        <p>Votá ideas para hacer este último año inolvidable.</p>
+<h1>Propuestas para el último año</h1>
+<p>Votá ideas para hacer este último año inolvidable.</p>
 
 <div id="votar">
 <button id="votar">Apoyar esta idea</button>
@@ -26,13 +34,12 @@
 </div>
 </section>
 
-        <form id="formPropuesta">
 
 <section class="propuesta" id="enviar-propuesta">
 
-        </form>
+<h2>Enviar una propuesta</h2>
 
-    </section>
+<form id="formPropuesta">
 
 <label for="nombre">Tu nombre</label>
 <input type="text" id="nombre">
@@ -42,12 +49,12 @@
 
 <button type="submit">Enviar propuesta</button>
 
+<p id="mensaje"></p>
 
-    <footer>
+</form>
 
-        <p>Promoción 2026</p>
+</section>
 
-    </footer>
 
 <section id="contacto">
 <h2>Contacto</h2>
@@ -63,5 +70,4 @@
 <script src="script.js"></script>
 
 </body>
-
 </html>
